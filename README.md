@@ -26,7 +26,6 @@ LOW_EFFICIENCY,
 LOW_RENEWABLE_USAGE
 
 Sample Output
-
 {
   "device_id": "S2",
   "signals": ["SUPPLY_DEMAND_GAP", "LOW_EFFICIENCY", "LOW_RENEWABLE_USAGE"],
