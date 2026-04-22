@@ -10,6 +10,7 @@ Pipeline Flow
 Dataset → Validation → Metrics → Signal Engine → Routing → Output → Dashboard
 
 Key Features
+
 🔹 Multi-device dataset (supply, demand, renewable, region)
 🔹 Validation layer (ALLOW / FLAG / REJECT)
 🔹 Energy domain logic (efficiency, renewable ratio)
@@ -20,11 +21,12 @@ Key Features
 
 Core Signals
 
-SUPPLY_DEMAND_GAP
-LOW_EFFICIENCY
+SUPPLY_DEMAND_GAP,
+LOW_EFFICIENCY,
 LOW_RENEWABLE_USAGE
 
 Sample Output
+
 {
   "device_id": "S2",
   "signals": ["SUPPLY_DEMAND_GAP", "LOW_EFFICIENCY", "LOW_RENEWABLE_USAGE"],
@@ -41,7 +43,7 @@ Dashboard
 
 The system includes basic visualizations:
 
-Efficiency per device
+Efficiency per device,
 Renewable usage per device
 
 System Properties
