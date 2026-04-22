@@ -26,14 +26,22 @@ LOW_EFFICIENCY,
 LOW_RENEWABLE_USAGE
 
 Sample Output
+
 {
   "device_id": "S2",
+  
   "signals": ["SUPPLY_DEMAND_GAP", "LOW_EFFICIENCY", "LOW_RENEWABLE_USAGE"],
+  
   "actions": ["GRID_OPERATOR_South", "MAINTENANCE_TEAM", "SUSTAINABILITY_TEAM"],
+  
   "trace": {
+  
     "input": {"supply": 80, "demand": 110},
+    
     "computed": {"efficiency": -0.375, "renewable_ratio": 0.25},
+    
     "signals": ["SUPPLY_DEMAND_GAP", "LOW_EFFICIENCY", "LOW_RENEWABLE_USAGE"],
+    
     "validation": "FLAG"
   }
 }
