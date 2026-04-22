@@ -1,15 +1,14 @@
 # SHAKTI-Energy-Intelligence-Engine-Dataset-Signal-Dashboard-Final-Sprint
-
-Overview
+## Overview
 
 This project implements a deterministic energy intelligence system that processes multi-device energy data and generates structured, traceable signals and actions.
 The system is designed to operate under realistic conditions with validation, domain logic, and dashboard outputs — without using any machine learning.
 
-Pipeline Flow
+## Pipeline Flow
 
 Dataset → Validation → Metrics → Signal Engine → Routing → Output → Dashboard
 
-Key Features
+## Key Features
 
 🔹 Multi-device dataset (supply, demand, renewable, region)
 🔹 Validation layer (ALLOW / FLAG / REJECT)
@@ -19,13 +18,13 @@ Key Features
 🔹 Deep traceability (input → computation → signals)
 🔹 Dashboard visualization (charts)
 
-Core Signals
+## Core Signals
 
 SUPPLY_DEMAND_GAP,
 LOW_EFFICIENCY,
 LOW_RENEWABLE_USAGE
 
-Sample Output
+## Sample Output
 
 {
   "device_id": "S2",
@@ -47,22 +46,27 @@ Sample Output
   
 }
 
-Dashboard
+## Dashboard
 
 The system includes basic visualizations:
 
-Efficiency per device,
+Efficiency per device
+
 Renewable usage per device
 
-System Properties
+## System Properties
 
-Deterministic (no ML / no black-box),
-Traceable (full decision transparency),
-Modular pipeline,
-Handles multi-device data,
+Deterministic (no ML / no black-box)
+
+Traceable (full decision transparency)
+
+Modular pipeline
+
+Handles multi-device data
+
 Executable end-to-end
 
-Summary
+## Summary
 
 This project demonstrates a working energy intelligence pipeline that moves beyond static demos to a multi-device, rule-based system with validation, domain logic, and visualization, aligned with real-world execution requirements.
 
